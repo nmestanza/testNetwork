@@ -5,7 +5,6 @@
 #include <boost/bind.hpp>
 
 
-
 client::client() {
 	IO_handler = new boost::asio::io_service();
 	socket_forClient = new boost::asio::ip::tcp::socket(*IO_handler);
