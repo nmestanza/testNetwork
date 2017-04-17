@@ -11,6 +11,7 @@ int main(void)
 		5. MANDAR PAQUETE(#) como Client */
 
 	client Client;
+	server Server;
 
 
 }

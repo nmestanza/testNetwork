@@ -1,4 +1,8 @@
 #pragma once
+#include <iostream>
+#include <boost/asio.hpp>
+#include <boost/function.hpp>
+#include <boost/bind.hpp>
 
 #define HELLO_PORT_STR "50013"
 #define SERVER_IP "localhost"
