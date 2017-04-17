@@ -14,3 +14,5 @@ private:
 	boost::asio::ip::tcp::socket* socket_forServer;
 	boost::asio::ip::tcp::acceptor* server_acceptor;
 };
+
+void TCPserver();

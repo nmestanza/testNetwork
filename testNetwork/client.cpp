@@ -47,9 +47,3 @@ void asioTcpClient(const char* host)
 	conquering.receiveMessage();
 
 }
-#include <Windows.h>
-int main(int argc, char* argv[])
-{
-	asioTcpClient(SERVER_IP);
-	Sleep(10000);
-}

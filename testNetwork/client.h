@@ -15,3 +15,5 @@ private:
 	boost::asio::ip::tcp::resolver* client_resolver;
 	boost::asio::ip::tcp::resolver::iterator endpoint;
 };
+
+void asioTcpClient(const char* host);

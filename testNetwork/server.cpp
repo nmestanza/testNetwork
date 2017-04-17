@@ -42,7 +42,3 @@ void TCPserver()
 	conquering.sendMessage();
 }
 
-int main(int argc, char* argv[])
-{
-	TCPserver();
-}
